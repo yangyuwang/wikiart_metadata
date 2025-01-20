@@ -2,11 +2,9 @@
 
 This repository contains scripts for scraping artist and artwork information from WikiArt using Selenium. The dataset generated from these scripts includes detailed information about artists and their artworks.
 
-## Author
-Yangyu Wang
+Author: Yangyu Wang
 
-## Date
-January 18, 2025
+Date: January 18, 2025
 
 ## Contents
 
