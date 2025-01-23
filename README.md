@@ -16,7 +16,7 @@ This Jupyter notebook contains the code for scraping artist information and thei
 - Saving the extracted data into CSV files.
 - Re-scraping for not found items.
 
-### 2. `ARTWORK_SCRAPING.ipynb`
+### 2. `ARTWORKS_SCRAPING_ORIGINAL{*}.ipynb`
 This Jupyter notebook focuses on scraping detailed information about artworks from WikiArt. The main steps include:
 - Extracting artwork information from provided URLs.
 - Handling previously found and unfound URLs.
