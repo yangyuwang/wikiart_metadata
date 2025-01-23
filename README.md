@@ -1,6 +1,6 @@
 # WikiArt Dataset Scraping
 
-This repository contains scripts for scraping artist and artwork information from WikiArt using Selenium. The dataset generated from these scripts includes detailed information about artists and their artworks. Wikipedia expanded data is from [kaggle](https://www.kaggle.com/datasets/orkatz2/wikiartcsv/data) as a basic list of artists to extract.
+This repository contains scripts for scraping artist and artwork information from WikiArt using Selenium. The dataset generated from these scripts includes detailed information about artists and their artworks. [Wikipedia expanded](https://www.kaggle.com/datasets/orkatz2/wikiartcsv/data) data is from kaggle as a basic list of artists to extract.
 
 Author: Yangyu Wang
 
