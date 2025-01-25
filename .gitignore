@@ -1,5 +1,6 @@
 # Ignore all files in specific directories
-artist_wikipedia_content/
+artist_wikipedia_html/
+
 artwork_picture/
 old_data/
 separate_artwork_data/
