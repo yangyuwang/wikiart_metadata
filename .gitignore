@@ -11,3 +11,4 @@ artwork_data/rename.csv
 
 # Ignore virtual environment
 .venv/
+.DS_Store
