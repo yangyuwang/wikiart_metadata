@@ -1,0 +1,12 @@
+# Ignore all files in specific directories
+artist_wikipedia_content/
+artwork_picture/
+old_data/
+separate_artwork_data/
+
+# Ignore specific files
+artwork_picture.zip
+artwork_data/rename.csv
+
+# Ignore virtual environment
+.venv/
