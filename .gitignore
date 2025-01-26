@@ -8,6 +8,8 @@ separate_artwork_data/
 # Ignore specific files
 artwork_picture.zip
 artwork_data/rename.csv
+artwork_data/arwork_data_all.csv
+artwork_data/arwork_data_image_done.csv
 
 # Ignore virtual environment
 .venv/
