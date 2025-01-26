@@ -8,21 +8,25 @@ Date: January 18, 2025
 
 ## Contents
 
-### 1. `ARTIST_ARTWORKS_SCRAPING.ipynb`
+### 1. [ARTIST_ARTWORKS_SCRAPING.ipynb](./artist_artworks_scraping.ipynb)
 This Jupyter notebook contains the code for scraping artist information and their artworks from WikiArt. The main steps include:
 - Generating artist names from an existing dataset.
 - Opening Firefox using Selenium WebDriver.
 - Extracting artist information and artworks.
 - Saving the extracted data into CSV files.
 - Re-scraping for not found items.
+- Results see [artist_data_new.csv](./artist_data/artist_data_new.csv)
+- Results see [artist_artwork.csv](./artist_data/artist_artwork.csv)
 
-### 2. `ARTWORKS_SCRAPING_ORIGINAL{*}.ipynb`
+### 2. [ARTWORKS_SCRAPING_ORIGINAL{*}.ipynb](./artworks_scraping_original.ipynb)
 This Jupyter notebook focuses on scraping detailed information about artworks from WikiArt. The main steps include:
 - Extracting artwork information from provided URLs.
 - Handling previously found and unfound URLs.
 - Saving the extracted data into CSV files.
+- Results see [artwork_data_all.csv](./artwork_data/artwork_data_all.csv)
+- Revised version see [artwork_data_image_done.csv](./artwork_data/artwork_data_image_done.csv)
 
-### 3. `ART_IMAGE_SCRAPING_NEW.ipynb`
+### 3. [ART_IMAGE_SCRAPING_NEW.ipynb](./art_image_scraping_new.ipynb)
 This Jupyter notebook is designed for scraping art images using the Requests library. The main steps include:
 - Loading artwork data from a CSV file.
 - Renaming columns for consistency.
@@ -30,6 +34,7 @@ This Jupyter notebook is designed for scraping art images using the Requests lib
 - Listing files in the target directory.
 - Downloading images using the `img2dataset` library.
 - Displaying an example of the scraped images.
+- Results see [Wikiart Images](https://kaggle.com/datasets/b76e12fbe32031c3f2027867361fb26c56ed4fd677fe59abbe0b1449d647f4e6) 
 
 ### 4. `ARTIST_WIKIPEDIA_SCRAPING.ipynb`
 This Jupyter notebook is dedicated to scraping artist information from Wikipedia. The main steps include:
@@ -37,13 +42,14 @@ This Jupyter notebook is dedicated to scraping artist information from Wikipedia
 - Defining a function to scrape Wikipedia pages.
 - Iterating through the list of artist URLs.
 - Handling errors and saving the scraped data into HTML and TXT files.
+- Results see [artist_wikipedia_content](./artist_wikipedia_content/) 
 
 ## Dataset
 The dataset generated from these scripts includes:
-- `artist_data/artist_data_new.csv`: Contains detailed information about artists.
-- `artist_data/artist_artwork.csv`: Contains information about artworks associated with artists.
-- `artwork_data/artwork_data_all.csv`: Contains detailed information about individual artworks.
-- `artist_wikipedia_content/`: Contains text files of artist Wikipedia pages.
+- [artist_data_new.csv](./artist_data/artist_data_new.csv): Contains detailed information about artists.
+- [artist_artwork.csv](./artist_data/artist_artwork.csv): Contains information about artworks associated with artists.
+- [artwork_data_all.csv](./artwork_data/artwork_data_all.csv): Contains detailed information about individual artworks.
+- [artist_wikipedia_content](./artist_wikipedia_content): Contains text files of artist Wikipedia pages.
 
 ## Requirements
 - Python 3.10.0
