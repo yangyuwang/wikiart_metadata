@@ -23,8 +23,8 @@ This Jupyter notebook focuses on scraping detailed information about artworks fr
 - Extracting artwork information from provided URLs.
 - Handling previously found and unfound URLs.
 - Saving the extracted data into CSV files.
-- Results see [artwork_data_all.csv](./artwork_data/artwork_data_all.csv)
-- Revised version see [artwork_data_image_done.csv](./artwork_data/artwork_data_image_done.csv)
+- Results see [artwork_data_image_done.csv](./artwork_data/artwork_data_image_done.csv)
+- Merged version see [artwork_data_merged.csv](./artwork_data/artwork_data_merged.csv)
 
 ### 3. [ART_IMAGE_SCRAPING_NEW.ipynb](./art_image_scraping_new.ipynb)
 This Jupyter notebook is designed for scraping art images using the Requests library. The main steps include:
